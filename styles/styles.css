@@ -94,10 +94,15 @@ header {
     border: 2px solid #FD6E0A;
     color: #FD6E0A;
 }
+
+/* Main style section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* About styles section */
 .about {
-    margin: 130px 230px;
-    padding: 131px;
+    margin: 130px 156px;
     border-radius: 10px;
     background: #FFF8F3;
 }
@@ -116,18 +121,62 @@ header {
     font-size: 18px; /* 166.667% */
 }
 
-.what-i-do {
-    color: #757575;
-    padding: 0 330px;
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
 }
 
-.what-i-do p {
+.about-info {
+    text-align: center;
+}
+
+.info-title {
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+.info-description {
+    margin-top: 0;
+    font-weight: bold;
+}
+
+
+/* What i do styles section */
+.what-i-do {
+    color: #757575;
+    padding: 30px 150px;
+    margin-bottom: 20px;
+}
+
+#what-i-do-sec-description {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: #757575;
     /* the first value is the width 
     and the second value is the color */
-    -webkit-text-stroke: 1px black; 
+    -webkit-text-stroke: 1px black;
+    margin-bottom: 50px; 
 }
+
+/* What i do skills section */
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    width: 267px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 10px;
+}
+
+.skill-title {
+    font-size: 20px;
+    
+}
+
+
 
 
 
